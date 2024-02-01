@@ -9,7 +9,7 @@ from mmcv.cnn import ConvModule, build_activation_layer, build_norm_layer
 from mmengine.model import BaseModule
 from torch import Tensor
 
-from mmpose.utils.typing import OptConfigType
+from mmpose.utils.mtyping import OptConfigType
 
 
 class RepVGGBlock(BaseModule):

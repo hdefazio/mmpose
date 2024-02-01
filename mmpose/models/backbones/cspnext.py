@@ -9,7 +9,7 @@ from torch import Tensor
 from torch.nn.modules.batchnorm import _BatchNorm
 
 from mmpose.registry import MODELS
-from mmpose.utils.typing import ConfigType
+from mmpose.utils.mtyping import ConfigType
 from ..utils import CSPLayer
 from .csp_darknet import SPPBottleneck
 

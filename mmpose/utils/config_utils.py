@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmpose.utils.typing import ConfigDict
+from mmpose.utils.mtyping import ConfigDict
 
 
 def adapt_mmdet_pipeline(cfg: ConfigDict) -> ConfigDict:

@@ -12,7 +12,7 @@ from mmpose.evaluation.functional.nms import nearby_joints_nms
 from mmpose.models.utils.tta import flip_heatmaps
 from mmpose.registry import KEYPOINT_CODECS, MODELS
 from mmpose.utils.tensor_utils import to_numpy
-from mmpose.utils.typing import (ConfigType, Features, InstanceList,
+from mmpose.utils.mtyping import (ConfigType, Features, InstanceList,
                                  OptConfigType, OptSampleList, Predictions)
 from ...backbones.resnet import BasicBlock
 from ..base_head import BaseHead

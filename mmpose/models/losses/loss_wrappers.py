@@ -4,7 +4,7 @@ from typing import Dict
 import torch.nn as nn
 
 from mmpose.registry import MODELS
-from mmpose.utils.typing import ConfigType
+from mmpose.utils.mtyping import ConfigType
 
 
 @MODELS.register_module()

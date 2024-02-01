@@ -12,7 +12,7 @@ from torch import Tensor
 
 from mmpose.models.utils.tta import flip_heatmaps
 from mmpose.registry import KEYPOINT_CODECS, MODELS
-from mmpose.utils.typing import (ConfigType, Features, OptConfigType,
+from mmpose.utils.mtyping import (ConfigType, Features, OptConfigType,
                                  OptSampleList, Predictions)
 from ..base_head import BaseHead
 

@@ -6,7 +6,7 @@ from mmengine.utils import is_list_of
 from torch import Tensor
 
 from mmpose.registry import MODELS
-from mmpose.utils.typing import (ConfigType, InstanceList, OptConfigType,
+from mmpose.utils.mtyping import (ConfigType, InstanceList, OptConfigType,
                                  OptMultiConfig, PixelDataList, SampleList)
 from .base import BasePoseEstimator
 

@@ -11,7 +11,7 @@ from torch import Tensor
 from mmpose.models.utils import (DetrTransformerEncoder, RepVGGBlock,
                                  SinePositionalEncoding)
 from mmpose.registry import MODELS
-from mmpose.utils.typing import ConfigType, OptConfigType
+from mmpose.utils.mtyping import ConfigType, OptConfigType
 
 
 class CSPRepLayer(BaseModule):

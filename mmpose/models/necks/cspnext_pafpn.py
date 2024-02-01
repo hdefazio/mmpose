@@ -9,7 +9,7 @@ from mmengine.model import BaseModule
 from torch import Tensor
 
 from mmpose.registry import MODELS
-from mmpose.utils.typing import ConfigType, OptMultiConfig
+from mmpose.utils.mtyping import ConfigType, OptMultiConfig
 from ..utils import CSPLayer
 
 

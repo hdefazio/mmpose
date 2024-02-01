@@ -9,7 +9,7 @@ from torch import Tensor
 from mmpose.models.utils.tta import aggregate_heatmaps, flip_heatmaps
 from mmpose.registry import MODELS
 from mmpose.utils.tensor_utils import to_numpy
-from mmpose.utils.typing import (ConfigType, Features, InstanceList,
+from mmpose.utils.mtyping import (ConfigType, Features, InstanceList,
                                  OptConfigType, OptSampleList, Predictions)
 from .heatmap_head import HeatmapHead
 

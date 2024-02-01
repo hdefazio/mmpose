@@ -14,7 +14,7 @@ from mmpose.models.heads.base_head import BaseHead
 from mmpose.models.utils.tta import flip_coordinates
 from mmpose.registry import KEYPOINT_CODECS, MODELS
 from mmpose.utils.tensor_utils import to_numpy
-from mmpose.utils.typing import (ConfigType, Features, InstanceList,
+from mmpose.utils.mtyping import (ConfigType, Features, InstanceList,
                                  OptConfigType, OptSampleList, Predictions)
 
 OptIntSeq = Optional[Sequence[int]]

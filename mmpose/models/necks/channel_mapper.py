@@ -7,7 +7,7 @@ from mmengine.model import BaseModule
 from torch import Tensor
 
 from mmpose.registry import MODELS
-from mmpose.utils.typing import OptConfigType, OptMultiConfig
+from mmpose.utils.mtyping import OptConfigType, OptMultiConfig
 
 
 @MODELS.register_module()

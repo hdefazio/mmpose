@@ -8,7 +8,7 @@ from mmengine import ConfigDict
 from mmengine.model import BaseModule, ModuleList
 from torch import Tensor
 
-from mmpose.utils.typing import ConfigType, OptConfigType
+from mmpose.utils.mtyping import ConfigType, OptConfigType
 
 
 class DetrTransformerEncoder(BaseModule):

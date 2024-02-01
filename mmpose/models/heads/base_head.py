@@ -7,7 +7,7 @@ from mmengine.structures import InstanceData
 from torch import Tensor
 
 from mmpose.utils.tensor_utils import to_numpy
-from mmpose.utils.typing import (Features, InstanceList, OptConfigType,
+from mmpose.utils.mtyping import (Features, InstanceList, OptConfigType,
                                  OptSampleList, Predictions)
 
 

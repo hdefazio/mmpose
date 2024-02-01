@@ -13,7 +13,7 @@ from mmengine.utils import digit_version, to_2tuple
 from mmengine.utils.dl_utils import TORCH_VERSION
 from torch import Tensor
 
-from mmpose.utils.typing import ConfigType, OptConfigType
+from mmpose.utils.mtyping import ConfigType, OptConfigType
 
 try:
     from fairscale.nn.checkpoint import checkpoint_wrapper

@@ -13,7 +13,7 @@ from mmpose.models.utils.rtmcc_block import RTMCCBlock, ScaleNorm
 from mmpose.models.utils.tta import flip_vectors
 from mmpose.registry import KEYPOINT_CODECS, MODELS
 from mmpose.utils.tensor_utils import to_numpy
-from mmpose.utils.typing import (ConfigType, InstanceList, OptConfigType,
+from mmpose.utils.mtyping import (ConfigType, InstanceList, OptConfigType,
                                  OptSampleList)
 from ..base_head import BaseHead
 

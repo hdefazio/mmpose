@@ -15,7 +15,7 @@ from mmpose.models.utils import filter_scores_and_topk
 from mmpose.registry import MODELS, TASK_UTILS
 from mmpose.structures import PoseDataSample
 from mmpose.utils import reduce_mean
-from mmpose.utils.typing import (ConfigType, Features, OptSampleList,
+from mmpose.utils.mtyping import (ConfigType, Features, OptSampleList,
                                  Predictions, SampleList)
 
 

@@ -13,7 +13,7 @@ from mmpose.evaluation.functional import keypoint_pck_accuracy
 from mmpose.models.utils.tta import flip_coordinates, flip_heatmaps
 from mmpose.registry import KEYPOINT_CODECS, MODELS
 from mmpose.utils.tensor_utils import to_numpy
-from mmpose.utils.typing import (ConfigType, OptConfigType, OptSampleList,
+from mmpose.utils.mtyping import (ConfigType, OptConfigType, OptSampleList,
                                  Predictions)
 from .. import HeatmapHead
 from ..base_head import BaseHead
